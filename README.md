@@ -1,4 +1,3 @@
-
 ## Playground
 
 A place to keep selected snippets of code
@@ -8,8 +7,4 @@ A place to keep selected snippets of code
     }
 
 And probably other things
-
-End (for now)
--------------
-
 
