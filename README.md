@@ -6,5 +6,5 @@ A place to keep selected snippets of code
         return 0;
     }
 
-And probably other things
+And probably other stuff
 
