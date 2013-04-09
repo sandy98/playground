@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Uploader Test</title>  
+  </head>
+  <body>
+    <div>
+       <h2>Form enctype options</h2>
+       <ul>
+         <li>application/x-www-form-urlencoded</li>
+         <li>multipart/form-data</li>
+         <li>text/plain</li>
+       </ul>
+    </div>
+    <hr/>
+    <div style="padding: 1em;">
+      <form enctype="multipart/form-data" action="/cgi-bin/upload.py" method="post">
+      <fieldset style="border-radius: 10px;">
+      <legend>multipart/form-data example</legend>
+        <input type="text" size="40" name="title" placeholder="Title goes here" />
+        <br/>
+        <input type="file" name="fupload"/>
+        <hr/>
+        <input type="submit" value="Upload file" />
+        <input type="reset" value="Cancel" />
+      </fieldset>
+      </form>
+    </div>  
+    <hr/>
+  </body>
+</html>

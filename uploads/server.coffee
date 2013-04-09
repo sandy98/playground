@@ -7,22 +7,10 @@ catch e
 
 http = require 'http'
 router = Router(list_dir: true)
+
 #
 #Example routes
 #
-router.get "/", (request, response) ->
-  response.end 'Home'
-
-router.get "/hello", (req, res) ->
- res.end 'Hello, World!, Hola, Mundo!'
-
-router.get "/users", (req, res) ->
-  res.writeHead(200, {'Content-type': 'text/html'})
-  res.end '<h1 style="color: navy; text-align: center;">Active members registry</h1>'
-
-router.get "/users/:id", (req, res) ->
-  res.writeHead(200, {'Content-type': 'text/html'})
-  res.end "<h1>User No: <span style='color: red;'>" + req.params.id + "</span></h1>"
 
 #
 #End of example routes
